@@ -1,1 +1,1 @@
-# Pong game by me :)
+Simple Pong game based on SFML.NET 
