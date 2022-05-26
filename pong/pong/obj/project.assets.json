@@ -1,0 +1,700 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CSFML/2.5.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-audio.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-audio.so.2.5": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-audio.so.2.5.1": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-graphics.so.2.5": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-graphics.so.2.5.1": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-system.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-system.so.2.5": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-system.so.2.5.1": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-window.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-window.so.2.5": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine-x64/native/libsfml-window.so.2.5.1": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/debian-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-audio.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-audio.so.2.5": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-audio.so.2.5.1": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-graphics.so.2.5": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-graphics.so.2.5.1": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-system.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-system.so.2.5": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-system.so.2.5.1": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-window.so": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-window.so.2.5": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/debian-x64/native/libsfml-window.so.2.5.1": {
+            "assetType": "native",
+            "rid": "debian-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-audio.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-audio.so.2.5": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-audio.so.2.5.1": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-graphics.so.2.5": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-graphics.so.2.5.1": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-system.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-system.so.2.5": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-system.so.2.5.1": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-window.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-window.so.2.5": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-window.so.2.5.1": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/win-x64/native/csfml-Audio.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-Graphics.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-System.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-Window.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openal32.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/csfml-Audio.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-Graphics.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-System.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-Window.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/openal32.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "OpenCV/2.4.11": {
+        "type": "package"
+      },
+      "SFML.Audio/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "2.5.0",
+          "SFML.Graphics": "2.5.0",
+          "SFML.System": "2.5.0",
+          "SFML.Window": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Audio.dll": {}
+        }
+      },
+      "SFML.Graphics/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "2.5.0",
+          "SFML.System": "2.5.0",
+          "SFML.Window": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Graphics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Graphics.dll": {}
+        }
+      },
+      "SFML.Net/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "SFML.Audio": "2.5.0",
+          "SFML.Graphics": "2.5.0",
+          "SFML.System": "2.5.0",
+          "SFML.Window": "2.5.0"
+        }
+      },
+      "SFML.System/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.System.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.System.dll": {}
+        }
+      },
+      "SFML.Window/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "2.5.0",
+          "SFML.System": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Window.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Window.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSFML/2.5.0": {
+      "sha512": "A3X+zyjAtvIQkpwCSS/F5fDOFRWeT+USIAK+DhGujNufF+qV1ty5cYGJihmmGeokX3yd89uZoNH8mcsmXCY/yw==",
+      "type": "package",
+      "path": "csfml/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csfml.2.5.0.nupkg.sha512",
+        "csfml.nuspec",
+        "runtimes/alpine-x64/native/libcsfml-audio.so",
+        "runtimes/alpine-x64/native/libcsfml-graphics.so",
+        "runtimes/alpine-x64/native/libcsfml-system.so",
+        "runtimes/alpine-x64/native/libcsfml-window.so",
+        "runtimes/alpine-x64/native/libsfml-audio.so",
+        "runtimes/alpine-x64/native/libsfml-audio.so.2.5",
+        "runtimes/alpine-x64/native/libsfml-audio.so.2.5.1",
+        "runtimes/alpine-x64/native/libsfml-graphics.so",
+        "runtimes/alpine-x64/native/libsfml-graphics.so.2.5",
+        "runtimes/alpine-x64/native/libsfml-graphics.so.2.5.1",
+        "runtimes/alpine-x64/native/libsfml-system.so",
+        "runtimes/alpine-x64/native/libsfml-system.so.2.5",
+        "runtimes/alpine-x64/native/libsfml-system.so.2.5.1",
+        "runtimes/alpine-x64/native/libsfml-window.so",
+        "runtimes/alpine-x64/native/libsfml-window.so.2.5",
+        "runtimes/alpine-x64/native/libsfml-window.so.2.5.1",
+        "runtimes/debian-x64/native/libcsfml-audio.so",
+        "runtimes/debian-x64/native/libcsfml-graphics.so",
+        "runtimes/debian-x64/native/libcsfml-system.so",
+        "runtimes/debian-x64/native/libcsfml-window.so",
+        "runtimes/debian-x64/native/libsfml-audio.so",
+        "runtimes/debian-x64/native/libsfml-audio.so.2.5",
+        "runtimes/debian-x64/native/libsfml-audio.so.2.5.1",
+        "runtimes/debian-x64/native/libsfml-graphics.so",
+        "runtimes/debian-x64/native/libsfml-graphics.so.2.5",
+        "runtimes/debian-x64/native/libsfml-graphics.so.2.5.1",
+        "runtimes/debian-x64/native/libsfml-system.so",
+        "runtimes/debian-x64/native/libsfml-system.so.2.5",
+        "runtimes/debian-x64/native/libsfml-system.so.2.5.1",
+        "runtimes/debian-x64/native/libsfml-window.so",
+        "runtimes/debian-x64/native/libsfml-window.so.2.5",
+        "runtimes/debian-x64/native/libsfml-window.so.2.5.1",
+        "runtimes/fedora-x64/native/libcsfml-audio.so",
+        "runtimes/fedora-x64/native/libcsfml-graphics.so",
+        "runtimes/fedora-x64/native/libcsfml-system.so",
+        "runtimes/fedora-x64/native/libcsfml-window.so",
+        "runtimes/fedora-x64/native/libsfml-audio.so",
+        "runtimes/fedora-x64/native/libsfml-audio.so.2.5",
+        "runtimes/fedora-x64/native/libsfml-audio.so.2.5.1",
+        "runtimes/fedora-x64/native/libsfml-graphics.so",
+        "runtimes/fedora-x64/native/libsfml-graphics.so.2.5",
+        "runtimes/fedora-x64/native/libsfml-graphics.so.2.5.1",
+        "runtimes/fedora-x64/native/libsfml-system.so",
+        "runtimes/fedora-x64/native/libsfml-system.so.2.5",
+        "runtimes/fedora-x64/native/libsfml-system.so.2.5.1",
+        "runtimes/fedora-x64/native/libsfml-window.so",
+        "runtimes/fedora-x64/native/libsfml-window.so.2.5",
+        "runtimes/fedora-x64/native/libsfml-window.so.2.5.1",
+        "runtimes/win-x64/native/csfml-Audio.dll",
+        "runtimes/win-x64/native/csfml-Graphics.dll",
+        "runtimes/win-x64/native/csfml-System.dll",
+        "runtimes/win-x64/native/csfml-Window.dll",
+        "runtimes/win-x64/native/openal32.dll",
+        "runtimes/win-x86/native/csfml-Audio.dll",
+        "runtimes/win-x86/native/csfml-Graphics.dll",
+        "runtimes/win-x86/native/csfml-System.dll",
+        "runtimes/win-x86/native/csfml-Window.dll",
+        "runtimes/win-x86/native/openal32.dll"
+      ]
+    },
+    "OpenCV/2.4.11": {
+      "sha512": "1W5nlWqWx82FI6q6ISqLUj3paH5DpbfXqnNrFi9eOCeChr59I0d0xklDtMMNsGt8JLlZTMu6IW2Pyp7IMnGVAA==",
+      "type": "package",
+      "path": "opencv/2.4.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet-Overlay.cmd",
+        "build/configurations.autopkg",
+        "build/native/OpenCV.props",
+        "build/native/OpenCV.targets",
+        "build/native/default-propertiesui.xml",
+        "build/native/docs/LICENSE",
+        "build/native/include/opencv/cv.h",
+        "build/native/include/opencv/cv.hpp",
+        "build/native/include/opencv/cvaux.h",
+        "build/native/include/opencv/cvaux.hpp",
+        "build/native/include/opencv/cvwimage.h",
+        "build/native/include/opencv/cxcore.h",
+        "build/native/include/opencv/cxcore.hpp",
+        "build/native/include/opencv/cxeigen.hpp",
+        "build/native/include/opencv/cxmisc.h",
+        "build/native/include/opencv/highgui.h",
+        "build/native/include/opencv/ml.h",
+        "build/native/include/opencv2/calib3d/calib3d.hpp",
+        "build/native/include/opencv2/contrib/contrib.hpp",
+        "build/native/include/opencv2/contrib/detection_based_tracker.hpp",
+        "build/native/include/opencv2/contrib/hybridtracker.hpp",
+        "build/native/include/opencv2/contrib/openfabmap.hpp",
+        "build/native/include/opencv2/contrib/retina.hpp",
+        "build/native/include/opencv2/core/affine.hpp",
+        "build/native/include/opencv2/core/core.hpp",
+        "build/native/include/opencv2/core/core_c.h",
+        "build/native/include/opencv2/core/cuda_devptrs.hpp",
+        "build/native/include/opencv2/core/devmem2d.hpp",
+        "build/native/include/opencv2/core/eigen.hpp",
+        "build/native/include/opencv2/core/gpumat.hpp",
+        "build/native/include/opencv2/core/internal.hpp",
+        "build/native/include/opencv2/core/mat.hpp",
+        "build/native/include/opencv2/core/opengl_interop.hpp",
+        "build/native/include/opencv2/core/opengl_interop_deprecated.hpp",
+        "build/native/include/opencv2/core/operations.hpp",
+        "build/native/include/opencv2/core/types_c.h",
+        "build/native/include/opencv2/core/version.hpp",
+        "build/native/include/opencv2/core/wimage.hpp",
+        "build/native/include/opencv2/features2d/features2d.hpp",
+        "build/native/include/opencv2/flann/all_indices.h",
+        "build/native/include/opencv2/flann/allocator.h",
+        "build/native/include/opencv2/flann/any.h",
+        "build/native/include/opencv2/flann/autotuned_index.h",
+        "build/native/include/opencv2/flann/composite_index.h",
+        "build/native/include/opencv2/flann/config.h",
+        "build/native/include/opencv2/flann/defines.h",
+        "build/native/include/opencv2/flann/dist.h",
+        "build/native/include/opencv2/flann/dummy.h",
+        "build/native/include/opencv2/flann/dynamic_bitset.h",
+        "build/native/include/opencv2/flann/flann.hpp",
+        "build/native/include/opencv2/flann/flann_base.hpp",
+        "build/native/include/opencv2/flann/general.h",
+        "build/native/include/opencv2/flann/ground_truth.h",
+        "build/native/include/opencv2/flann/hdf5.h",
+        "build/native/include/opencv2/flann/heap.h",
+        "build/native/include/opencv2/flann/hierarchical_clustering_index.h",
+        "build/native/include/opencv2/flann/index_testing.h",
+        "build/native/include/opencv2/flann/kdtree_index.h",
+        "build/native/include/opencv2/flann/kdtree_single_index.h",
+        "build/native/include/opencv2/flann/kmeans_index.h",
+        "build/native/include/opencv2/flann/linear_index.h",
+        "build/native/include/opencv2/flann/logger.h",
+        "build/native/include/opencv2/flann/lsh_index.h",
+        "build/native/include/opencv2/flann/lsh_table.h",
+        "build/native/include/opencv2/flann/matrix.h",
+        "build/native/include/opencv2/flann/miniflann.hpp",
+        "build/native/include/opencv2/flann/nn_index.h",
+        "build/native/include/opencv2/flann/object_factory.h",
+        "build/native/include/opencv2/flann/params.h",
+        "build/native/include/opencv2/flann/random.h",
+        "build/native/include/opencv2/flann/result_set.h",
+        "build/native/include/opencv2/flann/sampling.h",
+        "build/native/include/opencv2/flann/saving.h",
+        "build/native/include/opencv2/flann/simplex_downhill.h",
+        "build/native/include/opencv2/flann/timer.h",
+        "build/native/include/opencv2/gpu/device/block.hpp",
+        "build/native/include/opencv2/gpu/device/border_interpolate.hpp",
+        "build/native/include/opencv2/gpu/device/color.hpp",
+        "build/native/include/opencv2/gpu/device/common.hpp",
+        "build/native/include/opencv2/gpu/device/datamov_utils.hpp",
+        "build/native/include/opencv2/gpu/device/detail/color_detail.hpp",
+        "build/native/include/opencv2/gpu/device/detail/reduce.hpp",
+        "build/native/include/opencv2/gpu/device/detail/reduce_key_val.hpp",
+        "build/native/include/opencv2/gpu/device/detail/transform_detail.hpp",
+        "build/native/include/opencv2/gpu/device/detail/type_traits_detail.hpp",
+        "build/native/include/opencv2/gpu/device/detail/vec_distance_detail.hpp",
+        "build/native/include/opencv2/gpu/device/dynamic_smem.hpp",
+        "build/native/include/opencv2/gpu/device/emulation.hpp",
+        "build/native/include/opencv2/gpu/device/filters.hpp",
+        "build/native/include/opencv2/gpu/device/funcattrib.hpp",
+        "build/native/include/opencv2/gpu/device/functional.hpp",
+        "build/native/include/opencv2/gpu/device/limits.hpp",
+        "build/native/include/opencv2/gpu/device/reduce.hpp",
+        "build/native/include/opencv2/gpu/device/saturate_cast.hpp",
+        "build/native/include/opencv2/gpu/device/scan.hpp",
+        "build/native/include/opencv2/gpu/device/simd_functions.hpp",
+        "build/native/include/opencv2/gpu/device/static_check.hpp",
+        "build/native/include/opencv2/gpu/device/transform.hpp",
+        "build/native/include/opencv2/gpu/device/type_traits.hpp",
+        "build/native/include/opencv2/gpu/device/utility.hpp",
+        "build/native/include/opencv2/gpu/device/vec_distance.hpp",
+        "build/native/include/opencv2/gpu/device/vec_math.hpp",
+        "build/native/include/opencv2/gpu/device/vec_traits.hpp",
+        "build/native/include/opencv2/gpu/device/warp.hpp",
+        "build/native/include/opencv2/gpu/device/warp_reduce.hpp",
+        "build/native/include/opencv2/gpu/device/warp_shuffle.hpp",
+        "build/native/include/opencv2/gpu/devmem2d.hpp",
+        "build/native/include/opencv2/gpu/gpu.hpp",
+        "build/native/include/opencv2/gpu/gpumat.hpp",
+        "build/native/include/opencv2/gpu/stream_accessor.hpp",
+        "build/native/include/opencv2/highgui/cap_ios.h",
+        "build/native/include/opencv2/highgui/highgui.hpp",
+        "build/native/include/opencv2/highgui/highgui_c.h",
+        "build/native/include/opencv2/highgui/ios.h",
+        "build/native/include/opencv2/imgproc/imgproc.hpp",
+        "build/native/include/opencv2/imgproc/imgproc_c.h",
+        "build/native/include/opencv2/imgproc/types_c.h",
+        "build/native/include/opencv2/legacy/blobtrack.hpp",
+        "build/native/include/opencv2/legacy/compat.hpp",
+        "build/native/include/opencv2/legacy/legacy.hpp",
+        "build/native/include/opencv2/legacy/streams.hpp",
+        "build/native/include/opencv2/ml/ml.hpp",
+        "build/native/include/opencv2/nonfree/features2d.hpp",
+        "build/native/include/opencv2/nonfree/gpu.hpp",
+        "build/native/include/opencv2/nonfree/nonfree.hpp",
+        "build/native/include/opencv2/nonfree/ocl.hpp",
+        "build/native/include/opencv2/objdetect/objdetect.hpp",
+        "build/native/include/opencv2/ocl/matrix_operations.hpp",
+        "build/native/include/opencv2/ocl/ocl.hpp",
+        "build/native/include/opencv2/opencv.hpp",
+        "build/native/include/opencv2/opencv_modules.hpp",
+        "build/native/include/opencv2/photo/photo.hpp",
+        "build/native/include/opencv2/photo/photo_c.h",
+        "build/native/include/opencv2/stitching/detail/autocalib.hpp",
+        "build/native/include/opencv2/stitching/detail/blenders.hpp",
+        "build/native/include/opencv2/stitching/detail/camera.hpp",
+        "build/native/include/opencv2/stitching/detail/exposure_compensate.hpp",
+        "build/native/include/opencv2/stitching/detail/matchers.hpp",
+        "build/native/include/opencv2/stitching/detail/motion_estimators.hpp",
+        "build/native/include/opencv2/stitching/detail/seam_finders.hpp",
+        "build/native/include/opencv2/stitching/detail/util.hpp",
+        "build/native/include/opencv2/stitching/detail/util_inl.hpp",
+        "build/native/include/opencv2/stitching/detail/warpers.hpp",
+        "build/native/include/opencv2/stitching/detail/warpers_inl.hpp",
+        "build/native/include/opencv2/stitching/stitcher.hpp",
+        "build/native/include/opencv2/stitching/warpers.hpp",
+        "build/native/include/opencv2/superres/optical_flow.hpp",
+        "build/native/include/opencv2/superres/superres.hpp",
+        "build/native/include/opencv2/ts/gpu_perf.hpp",
+        "build/native/include/opencv2/ts/gpu_test.hpp",
+        "build/native/include/opencv2/ts/ts.hpp",
+        "build/native/include/opencv2/ts/ts_gtest.h",
+        "build/native/include/opencv2/ts/ts_perf.hpp",
+        "build/native/include/opencv2/video/background_segm.hpp",
+        "build/native/include/opencv2/video/tracking.hpp",
+        "build/native/include/opencv2/video/video.hpp",
+        "build/native/include/opencv2/videostab/deblurring.hpp",
+        "build/native/include/opencv2/videostab/fast_marching.hpp",
+        "build/native/include/opencv2/videostab/fast_marching_inl.hpp",
+        "build/native/include/opencv2/videostab/frame_source.hpp",
+        "build/native/include/opencv2/videostab/global_motion.hpp",
+        "build/native/include/opencv2/videostab/inpainting.hpp",
+        "build/native/include/opencv2/videostab/log.hpp",
+        "build/native/include/opencv2/videostab/motion_stabilizing.hpp",
+        "build/native/include/opencv2/videostab/optical_flow.hpp",
+        "build/native/include/opencv2/videostab/stabilizer.hpp",
+        "build/native/include/opencv2/videostab/videostab.hpp",
+        "build/native/pivot-list.txt",
+        "build/native/private/CoApp.NuGetNativeExtensions.dll",
+        "build/native/private/CoApp.NuGetNativeMSBuildTasks.dll.orig",
+        "build/native/private/nuget.exe",
+        "build/publisher-info.txt",
+        "opencv.2.4.11.nupkg.sha512",
+        "opencv.nuspec"
+      ]
+    },
+    "SFML.Audio/2.5.0": {
+      "sha512": "M5EIksRefT3nsLT32oEpESStsnlixR+YjKS6fUMl+vDQ3gdMaV4jc84pg3kbfM9w4RYKAyH6OWV4bzDU5FNZyA==",
+      "type": "package",
+      "path": "sfml.audio/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SFML.Audio.dll",
+        "lib/netstandard2.0/SFML.Audio.xml",
+        "sfml.audio.2.5.0.nupkg.sha512",
+        "sfml.audio.nuspec"
+      ]
+    },
+    "SFML.Graphics/2.5.0": {
+      "sha512": "77Nuz0qmK2q2+901J0439LC6qFNw5VT0qjqqA7zSaM0WrV7K/UozBjfO/ROCY0iW+w7IEqPYiXBK4A7xO5nvsQ==",
+      "type": "package",
+      "path": "sfml.graphics/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SFML.Graphics.dll",
+        "lib/netstandard2.0/SFML.Graphics.xml",
+        "sfml.graphics.2.5.0.nupkg.sha512",
+        "sfml.graphics.nuspec"
+      ]
+    },
+    "SFML.Net/2.5.0": {
+      "sha512": "XVxrtNX6FJOpI7OzsTlKUKI92C8CKVe1rYtNbyj9fdIdZgidwpK/kExhxH5XYxpJ5C1/EUsGdOrGx4BCfsQvbw==",
+      "type": "package",
+      "path": "sfml.net/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "sfml.net.2.5.0.nupkg.sha512",
+        "sfml.net.nuspec"
+      ]
+    },
+    "SFML.System/2.5.0": {
+      "sha512": "vdlmLjPRhOD25WX/L2wP3F9dg/3mTj6hhyHkqtleC0fA5WNr71F0ijLbvs32BBpow5OoyU7BryKMjy1WNmU0GQ==",
+      "type": "package",
+      "path": "sfml.system/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SFML.System.dll",
+        "lib/netstandard2.0/SFML.System.xml",
+        "sfml.system.2.5.0.nupkg.sha512",
+        "sfml.system.nuspec"
+      ]
+    },
+    "SFML.Window/2.5.0": {
+      "sha512": "KuQvC0TrsxzhFJw9hDvMAzKD8/12jvXjP7sC3UO5MSM0sy5sfYNTqQktnQ3ELAV+rP1cqRKLsvosBfMfl1HkRw==",
+      "type": "package",
+      "path": "sfml.window/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SFML.Window.dll",
+        "lib/netstandard2.0/SFML.Window.xml",
+        "sfml.window.2.5.0.nupkg.sha512",
+        "sfml.window.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "OpenCV >= 2.4.11",
+      "SFML.Net >= 2.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\pliki\\c#\\pong\\pong\\pong.csproj",
+      "projectName": "pong",
+      "projectPath": "C:\\Users\\PC\\Desktop\\pliki\\c#\\pong\\pong\\pong.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\pliki\\c#\\pong\\pong\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "OpenCV": {
+            "target": "Package",
+            "version": "[2.4.11, )"
+          },
+          "SFML.Net": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

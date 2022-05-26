@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "OGq2tYUbrBeOlJJTYp9Zrv/eOz07GRRMUmeWZhTFpOFyLnK4753Fd2bQ/N0VUjUI7eKG5gut1kAwtwKAE+qEzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\pliki\\c#\\pong\\pong\\pong.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\opencv\\2.4.11\\opencv.2.4.11.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
